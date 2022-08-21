@@ -1,0 +1,130 @@
+.fluid-container {
+  height: 100vh;
+}
+
+.left {
+  clip-path: ellipse(100% 165% at 10% -65%);
+}
+
+.col-6 {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#sign-up-button {
+  border: 2px solid white;
+  width: 25%;
+}
+
+.sign-in {
+  margin-top: 70px;
+  margin-bottom: 50px;
+  font-size: 4rem;
+  color: black;
+}
+
+input {
+  margin: 2vh 0vw;
+}
+
+#circle {
+  margin: 0;
+  border-radius: 50px/50px;
+  border: solid 1px black;
+  width: 80px;
+  height: 80px;
+}
+
+#circle .icon {
+  position: absolute;
+  top: 50%;
+  left: 28%;
+  transform: translate(-50%, -50%);
+  width: 1.8em; 
+  height: 2em;
+}
+
+.google {
+  max-width: 40%;
+  max-height: auto;
+}
+
+#input_container {
+  position:relative;
+  margin:5vh 0;
+}
+#input {
+  height:69px; 
+  margin:0;
+  padding-right: 30px; 
+  width: 70%; 
+  text-indent: 50px; 
+}
+
+#input_img {
+  position:absolute;
+  bottom:2px;
+  left: 8vw;
+  width:35px;
+  height:35px;
+}
+
+.col-6 img {
+  width: 50%;
+  
+}
+
+@media only screen and (max-width: 992px){
+  .woman, .col-7 {
+      display: none;
+  }
+}
+
+#leftback{
+  background-color: #0315ff;
+}
+
+#corner img{
+  margin-left: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.col-12 img{
+  margin-top: 44px;
+  left: 0;
+}
+
+
+.signup{
+  font-size: 23px;
+}
+
+.btn{
+  color: white;
+}
+
+#sin{
+  margin-bottom: 50px;
+  width: 25%;
+  font-size: 30px;
+  background-color: #0315ff;
+}
+
+.logos{
+  margin-top: 50px;
+}
+
+.social{
+  margin-bottom: 30px;
+}
+
+#mark{
+  margin-top: 50px;
+  font-family: 'Schoolbell', cursive;
+  color: black;
+  font-size: 24px;
+}
