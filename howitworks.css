@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px 0;
+}
+
+.navbar .logo {
+    width: 150px;
+    font-weight: bold;
+}
+
+.navbar .links ul{
+    list-style: none;
+    display: flex;
+}
+
+.navbar .links ul li {
+    margin-left: 60px;
+}
+
+.navbar .links ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.navbar .links ul li a:hover{
+    color:blue;
+}
+
+.navbar .logo img {
+    width: 100%;
+}
+
+.btn {
+    
+    padding: 15px 20px;
+    font-size: 0.8rem;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    line-height: 1;
+    margin-left: 20px;
+    transition: 0.3s;
+    text-decoration: none; 
+    font-size: 18px;
+}
+
+.btn.solid, .btn.transparent:hover {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.btn.transparent, .btn.solid:hover {
+    background-color: transparent;
+    color: blue;
+    font-weight: bold;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+}
+
+.top-container .text h1 {
+    font-size: 200px;
+    font-weight: 600;
+    padding-left: 700px;
+}
+
+.top-container .text h2 {
+    font-size: 50px;
+    font-weight: 400;
+    padding-left: 700px;
+}
+
+.top-container .text p {
+    width: 85%;
+    font-size: 25px;
+    margin: 25px 0;
+    padding-left: 700px;
+    color: darkgray;
+}
+
+.mid-button {
+    padding-left: 700px;
+    padding-top: 25px;
+}
+
+.btn.blue {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.btn.white {
+    background-color:white;
+    color: blue;
+    font-weight: bold;
+}
+
+.container .photo {
+    padding-top: 250px;
+    display: flex;
+    
+}
+
+.container .photo img {
+   width: 1000px;
+}
+
+.mid-text span {
+    color: black;
+}
+
+.mid-text i{
+    color: blue;
+}
+
+.top-container h3 {
+    color: darkgray;
+    padding-top: 40px;
+    align-items: center;
+    padding-left: 700px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 500;
+}
+.paragraph h4 {
+    font-size: 55px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.paragraph p {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+.main {
+    text-align: center;
+}
+.card {
+    align-items: center;
+}
+
+.col-md-8.text-light.card1{
+    background: rgb(35, 35, 255);
+    border-radius: 23px;
+}
+
+
+
+.mid-text {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-title{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.card-text {
+    text-align: center;
+    padding-left:40px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(27, 27, 251);
+    height: auto;
+    width: 100vw;
+    padding-top: 50px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.footer-content h3 {
+    padding-top: 20px;
+}
+
+.footer-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foot-text {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    justify-content: space-around;
+}
+
+.btn.green {
+    background-color: rgb(16, 255, 40);
+}
